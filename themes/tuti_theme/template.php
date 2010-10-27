@@ -21,13 +21,13 @@
  *   this, we have to override the theme function. You have to first find the
  *   theme function that generates the output, and then "catch" it and modify it
  *   here. The easiest way to do it is to copy the original function in its
- *   entirety and paste it here, changing the prefix from theme_ to STARTERKIT_.
+ *   entirety and paste it here, changing the prefix from theme_ to tuti_.
  *   For example:
  *
  *     original: theme_breadcrumb()
- *     theme override: STARTERKIT_breadcrumb()
+ *     theme override: tuti_breadcrumb()
  *
- *   where STARTERKIT is the name of your sub-theme. For example, the
+ *   where tuti is the name of your sub-theme. For example, the
  *   zen_classic theme would define a zen_classic_breadcrumb() function.
  *
  *   If you would like to override any of the theme functions used in Zen core,
@@ -66,7 +66,7 @@
 /**
  * Implementation of HOOK_theme().
  */
-function STARTERKIT_theme(&$existing, $type, $theme, $path) {
+function tuti_theme(&$existing, $type, $theme, $path) {
   $hooks = zen_theme($existing, $type, $theme, $path);
   // Add your theme hooks like this:
   /*
@@ -85,7 +85,7 @@ function STARTERKIT_theme(&$existing, $type, $theme, $path) {
  *   The name of the template being rendered (name of the .tpl.php file.)
  */
 /* -- Delete this line if you want to use this function
-function STARTERKIT_preprocess(&$vars, $hook) {
+function tuti_preprocess(&$vars, $hook) {
   $vars['sample_variable'] = t('Lorem ipsum.');
 }
 // */
@@ -99,7 +99,7 @@ function STARTERKIT_preprocess(&$vars, $hook) {
  *   The name of the template being rendered ("page" in this case.)
  */
 /* -- Delete this line if you want to use this function
-function STARTERKIT_preprocess_page(&$vars, $hook) {
+function tuti_preprocess_page(&$vars, $hook) {
   $vars['sample_variable'] = t('Lorem ipsum.');
 }
 // */
@@ -113,11 +113,11 @@ function STARTERKIT_preprocess_page(&$vars, $hook) {
  *   The name of the template being rendered ("node" in this case.)
  */
 /* -- Delete this line if you want to use this function
-function STARTERKIT_preprocess_node(&$vars, $hook) {
+function tuti_preprocess_node(&$vars, $hook) {
   $vars['sample_variable'] = t('Lorem ipsum.');
 
   // Optionally, run node-type-specific preprocess functions, like
-  // STARTERKIT_preprocess_node_page() or STARTERKIT_preprocess_node_story().
+  // tuti_preprocess_node_page() or tuti_preprocess_node_story().
   $function = __FUNCTION__ . '_' . $vars['node']->type;
   if (function_exists($function)) {
     $function($vars, $hook);
@@ -134,7 +134,7 @@ function STARTERKIT_preprocess_node(&$vars, $hook) {
  *   The name of the template being rendered ("comment" in this case.)
  */
 /* -- Delete this line if you want to use this function
-function STARTERKIT_preprocess_comment(&$vars, $hook) {
+function tuti_preprocess_comment(&$vars, $hook) {
   $vars['sample_variable'] = t('Lorem ipsum.');
 }
 // */
@@ -148,7 +148,7 @@ function STARTERKIT_preprocess_comment(&$vars, $hook) {
  *   The name of the template being rendered ("block" in this case.)
  */
 /* -- Delete this line if you want to use this function
-function STARTERKIT_preprocess_block(&$vars, $hook) {
+function tuti_preprocess_block(&$vars, $hook) {
   $vars['sample_variable'] = t('Lorem ipsum.');
 }
 // */
