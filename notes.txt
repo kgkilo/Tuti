@@ -10,6 +10,9 @@ http://www.cssplay.co.uk/menus/vertical-list.html
 http://www.cssplay.co.uk/menus/css3-slideline.html
 http://www.cssplay.co.uk/menus/
 
+Flex design
+http://www.cssplay.co.uk/layouts/flexible-3column.html
+
 Changing header image
 The header image is changed when one selects something related to
 	rollerskating or iceskating or general, accordingly there are
