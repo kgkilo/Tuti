@@ -1,0 +1,99 @@
+
+http://pcworld.hu/weboldalkeszito-suli-12-minden-jo-de-nincs-meg-vege-20090424.html?p=4
+
+Dynamic menu
+Some menu items are hidden at start, they only appear when the respective
+	upper level menu it clicked.
+http://www.cssplay.co.uk/menus/dl-slide.html
+http://www.cssplay.co.uk/menus/ul-multi-nine.html
+http://www.cssplay.co.uk/menus/vertical-list.html
+http://www.cssplay.co.uk/menus/css3-slideline.html
+http://www.cssplay.co.uk/menus/
+
+Changing header image
+The header image is changed when one selects something related to
+	rollerskating or iceskating or general, accordingly there are
+	3 header images to be shown.
+http://themeshaper.com/forums/topic/how-do-i-define-a-custom-css-file-for-each-of-my-four-pages
+http://wordpress.org/support/topic/swapping-out-header-images
+http://brassblogs.com/blog/css-image-swap
+http://ninjacss.com/blog/
+http://www.google.com/search?sourceid=chrome&client=ubuntu&channel=cs&ie=UTF-8&q=change+header+image+with+menu+entry+css#hl=en&q=custom+header+for+each+page+with+css&aq=o&aqi=&aql=&oq=&gs_rfai=&pbx=1&fp=1&cad=b
+
+Bal oldalon:
+
+- Hírek
+- Bemutatkozás
+- Versenyzők
+ * Eredmények
+ * Versenynaptár
+- Oktatás
+ * Kezdőknek
+ * Haladóknak
+- Galéria
+- Fórum (ebben lehetnek olyan részek, amiket csak a regisztrált és
+bejelentkezett emberek láthatna)
+
+Alul, minden lap alján (ahogy most is):
+- Elérhetőség
+
+Jobb oldalon lehetnének ilyen kis boxok:
+- Friss (pl következő verseny itt és ekkor, vagy edzés elmarad, stb)
+- Legutóbb módosult oldal
+- Támogatók
+- Eladó (?)
+
+
+A Galéria részen töprengtem kicsit, lehetne úgy is, hogy nincs külön
+ilyen menüpont, hanem az egyes oldalaknál külön-külön lenne galéria.
+Pl a versenyzőknél, vagy az oktatásnál, egyes híreknél, stb. Így nem
+lenne olyan sok menüpont a bal oldalon.
+
+Lehetne egy kis bazárt is működtetni, de ha nem, be lehet tenni a
+Fórum-ba is egy ilyen szekciót.
+
+T:
+A galéria akkor legyen inkább benne az egyes menüpontokban.
+A bazár is inkább a fórumnál legyen.
+A többi szerintem jó lesz így ahogy írtad.Ezt akkor tovább is küldöm a Tibi felé.
+
+
+Drupal frissitese
+6.15->6.19
+http://www.neobase.hu/friss%C3%ADt%C3%A9s
+
+- Jelentkezz be adminisztrátorként - ez az a felhasználó, amit mi hoztunk létre neked, amikor az oldalad elkészítettük. Ha nem módosítottad a felhasználói neved, akkor ez megegyezik a NeoBase.hu felhasználói azonosítóddal. A frissítési folyamat során ne zárd be ezt a böngésző ablakot!
+- Állítsd az oldalad offline állapotba ebben az Adminisztráció › Webhely beállítása › Webhely karbantartás (angol nyelvű felületen: Administer › Site configuration › Site maintenance) menüpontban.
+- Ajánlott valami alap sminket kiválasztani, például a Garlandot.
+- Kapcsolj ki minden kikapcsolható modult. (Blog, Color, Help, Locale, Menu, Ping, Statistics, Update status, Upload, Advanced Forum, Avatar Selection, Neobase.hu, Pathauto, Token actions, Webform, Image Attach, Image Gallery, IMCE WYSIWYG API Bridge; Forum, Path, Image, Author Pane, IMCE, Token, Wysiwyg; Comment, Taxonomy) A modulok fuggosegben vannak, a pontosvesszovel elvalasztottak csak ilyen sorrendben kapcsolhatok ki.
+- Készíts biztonsági mentést az adatbázisodról a Backup and migrate modul segítségével. (Eloszor bekapcsolni a Site building/Modules-ban, majd a Content Management alatt megtalalhato.)
+- Készíts biztonsági mentést a tárhelyedről, FTP-n keresztül. (gftp, ftp.neobase.hu, usr:kilo)
+- Itt jön az eltérés a hivatalos útmutatóhoz képest: Egy másik böngészőablakban, a NeoBase adminisztrációs rendszerében frissítsd a Drupal motort a Frissítés menüpont alatt, majd az oldaladra visszatérve a Reports › Status report menüpontban ellenőrizd le, hogy megtörtént-e a verzióváltás (a táblázat legfelső sorában található meg az aktuális verziószám). A verzióváltás nem azonnal, hanem kb. 10 percen belül történik meg.
+- Ha megtörtént a verzióváltás, a böngésződben futtasd le a /update.php oldalt.
+- Kapcsold vissza a modulokat, sminkeket.
+- Ajánlott ellenőrizni, hogy az általad feltelepített modulokból elérhető-e frissebb változat, és ha igen, telepíteni azokat (FTP-n felmásolni a helyükre). (letolteni, kizippelni, FTP-zni)
+- Újra futtasd le a /update.php oldalt.
+- Ellenőrizd, hogy oldalad minden része működik-e.
+- Állítsd vissza az oldalad online állapotba.
+- Ha - miután offline állapotba állítottad az oldalad - véletlenül kiléptél, akkor a /?q=user URL-en tudsz újra belépni.
+
+
+01 Hírek (oldal)
+02 Bemutatkozás (oldal)
+03 Versenyzők (oldal)
+ 31 Eredmények (írás)
+ 32 Versenynaptár (írás)
+04 Oktatás (oldal)
+ 41 Kezdőknek (oldal)
+ 42 Haladóknak (oldal)
+05 Fórum (adm->tartalom kezelés->fórum)
+
+Alul, minden lap alján (ahogy most is):
+- Elérhetőség
+
+Jobb oldalon lehetnének ilyen kis boxok:
+- Véletlenszerű képek
+- Friss (pl következő verseny itt és ekkor, vagy edzés elmarad, stb)
+- Legutóbb módosult oldal
+- Támogatók
+
