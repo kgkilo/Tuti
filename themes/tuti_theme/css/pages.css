@@ -13,12 +13,29 @@
 /*
  * Body
  */
-body {
+body #page-wrapper #page {
+  min-width: 980px;
+  background-color: #FBFAF7;
+  color: #494949;
+  font: normal normal normal 12px/170% Verdana, sans-serif;
   margin: 0;
   padding: 0;
 }
 
+#page-wrapper #page {
+  margin: 0px auto;
+  padding: 0px 20px;
+  max-width: 1270px;
+}
+
 #page-wrapper {
+  background-attachment: initial;
+  background-clip: initial;
+  background-color: #FBFAF7;
+  background-image: url(http://kilo.neobase.hu/sites/kilo.neobase.hu/files/bg.png);
+  background-origin: initial;
+  background-position: 50% 0;
+  background-repeat: repeat no-repeat;
 }
 
 #page {
@@ -64,6 +81,7 @@ body {
   float: left; /* LTR */
   margin: 0;
   padding: 0;
+  position: absolute;
 }
 
 #logo img {
@@ -76,7 +94,7 @@ body {
 h1#site-name,
 div#site-name /* The name of the website */ {
   margin: 0;
-  font-size: 2em;
+  font-size: 1.7em;
   line-height: 1.3em;
 }
 
@@ -101,9 +119,12 @@ div#site-name /* The name of the website */ {
  * Main (container for everything else)
  */
 #main-wrapper {
+  float: left;
+  width: 100;
 }
 
 #main {
+  margin: 0px 210px;
 }
 
 /*
@@ -224,22 +245,17 @@ ul.links li {
  * (see the layout.css file.)
  */
 .region-sidebar-first {
-  position:relative;
-	top:-10px;
-	left:-10px;
 	float:left;
-	width:220px;  /* for IE5/WIN */
-	voice-family: "\"}\"";
-	voice-family:inherit;
-	width:200px; /* actual value */
-	margin:0 0 -10px 0;
-	padding:10px;
-	background:#ECB9E8;
-	z-index:100;
+  margin: 60px 0px 5em;
+  position:relative;
+  width: 210px;
+  z-index: 2;
 }
 
 .region-sidebar-first .section {
-}
+  margin: 0px 0px 1.5em;
+  padding: 0px 15px 0px 0px
+  }
 
 /*
  * Second sidebar (on right in LTR languages, on left in RTL)
@@ -256,8 +272,8 @@ ul.links li {
 	voice-family: "\"}\"";
 	voice-family:inherit;
 	width:200px; /* actual value */
-	margin:0 0 -10px 0;
-	padding:10px;
+	/*margin:0 0 -10px 0;
+	padding:10px;*/
 	background:#D7C4FA;
 	z-index:99;
 }
