@@ -175,6 +175,7 @@ tr.warning /* Medium priority messages */ {
 
 div.error,
 tr.error /* High priority messages. See also the .error declaration below. */ {
+  display: none;
 }
 
 .error /* Errors that are separate from div.messages status messages. */ {
