@@ -314,7 +314,10 @@ ul.links li {
  */
 .region-sidebar-first {
 	float:left;
-  margin: 60px 0px 5em;
+  margin-bottom: 5em;
+  margin-left: -210px;
+  margin-right: 0;
+  margin-top: 60px;
   position:relative;
   width: 210px;
   z-index: 2;
