@@ -129,26 +129,83 @@ div#site-name /* The name of the website */ {
  * Main (container for everything else)
  */
 #main-wrapper {
+  margin-bottom: 0;
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 0;
+
   float: left;
-  width: 100;
+  width: 100%;
 }
 
 #main {
-  margin: 0px 210px;
+  margin-bottom: 0;
+  margin-left: 210px;
+  margin-right: 210px;
+  margin-top: 0;
+
+  background-attachment: initial;
+  background-clip: initial;
+  background-color: #FFFFFF;
+  background-image: url();
+  background-origin: initial;
+  background-position: 50% 0;
+  background-repeat: repeat no-repeat;
+  position: relative;
 }
 
 /*
  * Content
  */
 #content {
-  position:relative;
-	padding:0 240px;
+  background-attachment: initial;
+  background-clip: initial;
+  background-color: transparent;
+  background-image: url();
+  background-origin: initial;
+  background-position: 100% 0;
+  background-repeat: no-repeat no-repeat;
+  left: 10px;
+  position: relative;
 }
 
 #content .section {
+  background-attachment: initial;
+  background-clip: initial;
+  background-color: transparent;
+  background-image: url();
+  background-origin: initial;
+  background-position: 0 0;
+  background-repeat: no-repeat no-repeat;
+  left: -10px;
+  margin-left: -10px;
+  min-height: 400px;
+  padding-bottom: 5em;
+  padding-left: 35px;
+  padding-right: 25px;
+  padding-top: 60px;
+  position: relative;
 }
 
 #mission /* The mission statement of the site (displayed on homepage) */ {
+  background-color: #FFFFFF;
+  border-bottom-color: #F9FBF5;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-left-color: #F9FBF5;
+  border-left-style: solid;
+  border-left-width: 1px;
+  border-right-color: #F9FBF5;
+  border-right-style: solid;
+  border-right-width: 1px;
+  border-top-color: #F9FBF5;
+  border-top-style: solid;
+  border-top-width: 1px;
+  margin-bottom: 2em;
+  padding-bottom: 1em;
+  padding-left: 1em;
+  padding-right: 1em;
+  padding-top: 1em;
 }
 
 .region-content-top /* Wrapper for any blocks placed in the "content top" region */ {
