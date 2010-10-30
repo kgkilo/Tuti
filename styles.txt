@@ -1,0 +1,27 @@
+HEADER-REGION
+
+WRAPPER page-wrapper
+  CONTAINTER page
+    HEADER header
+      LOGO-FLOATER  href logo
+                    name-and-slogan
+                      site-name
+                      slogan
+
+    CENTER main-wrapper
+      SQUEEZE main
+        RIGHT-CORNER content
+          LEFT-CORNER section
+            MISSION mission
+                    messages-error
+                    content-area
+            NODE-STICKY node-1
+            NODE node-2
+            RSS feed-icons
+            FOOTER
+              BLOCK-BLOCK-NEOBASE
+              BLOCK-BLOCK-1
+    footer
+
+
+MINNELLI <-> zen
