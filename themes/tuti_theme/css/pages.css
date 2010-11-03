@@ -65,6 +65,8 @@ body #page-wrapper #page {
  * Header
  */
 #header {
+  margin-left: -8px;  /* Header reaches out to the edge on both sides.*/
+  margin-right: -8px;
   height: 119px;
   background-color: #FFFFFF;
   background-image: url(http://kilo.neobase.hu/sites/kilo.neobase.hu/themes/tuti_theme/images/header-bg.png);
