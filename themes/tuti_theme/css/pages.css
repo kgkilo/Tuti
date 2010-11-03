@@ -76,14 +76,10 @@ body #page-wrapper #page {
 }
 
 #logo /* Wrapping link for logo */ {
-  float: left; /* LTR */
-  margin: 0;
-  padding: 14px 20px 0 0;
-  position: absolute;
 }
 
 #logo img {
-  vertical-align: bottom;
+  padding: 15px 0px 0px 5px;
 }
 
 #name-and-slogan /* Wrapper for website name and slogan */ {
