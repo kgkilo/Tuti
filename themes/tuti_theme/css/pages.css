@@ -29,13 +29,6 @@ body #page-wrapper #page {
 }
 
 #page-wrapper {
-  background-attachment: initial;
-  background-clip: initial;
-  background-color: #FBFAF7;
-  background-image: url(http://kilo.neobase.hu/sites/kilo.neobase.hu/files/bg.png);
-  background-origin: initial;
-  background-position: 50% 0;
-  background-repeat: repeat no-repeat;
 }
 
 #page {
@@ -72,7 +65,11 @@ body #page-wrapper #page {
  * Header
  */
 #header {
-  height: 80px;
+  height: 119px;
+  background-color: #FFFFFF;
+  background-image: url(http://kilo.neobase.hu/sites/kilo.neobase.hu/themes/tuti_theme/images/header-bg.png);
+  background-repeat: repeat no-repeat;
+  background-attachment: fixed;
 }
 
 #header .section {
