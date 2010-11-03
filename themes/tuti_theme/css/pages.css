@@ -73,6 +73,8 @@ body #page-wrapper #page {
 }
 
 #header .section {
+  background-image: url(http://kilo.neobase.hu/sites/kilo.neobase.hu/themes/tuti_theme/images/header-mix.png);
+  background-repeat: repeat no-repeat;
 }
 
 #logo /* Wrapping link for logo */ {
@@ -83,21 +85,10 @@ body #page-wrapper #page {
 }
 
 #name-and-slogan /* Wrapper for website name and slogan */ {
-  padding: 0px 0px 0px 80px;
-  font-size: 170%;
-  font-weight: normal;
 }
 
 h1#site-name,
 div#site-name /* The name of the website */ {
-  margin: 0;
-  padding: 20px 0px;
-  font-family: Helvetica, Arial, sans-serif;
-  font-size: 1.5em;
-  font-weight: normal;
-  position: relative;
-  white-space: nowrap;
-  z-index: 2;
 }
 
 #site-name a:link,
@@ -112,7 +103,6 @@ div#site-name /* The name of the website */ {
 }
 
 #site-slogan /* The slogan (or tagline) of a website */ {
-  margin-top: -25px;
 }
 
 .region-header /* Wrapper for any blocks placed in the header region */ {
