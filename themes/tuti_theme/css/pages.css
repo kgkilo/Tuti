@@ -140,8 +140,8 @@ div#site-name /* The name of the website */ {
 
 #main {
   margin-bottom: 0;
-  margin-left: 210px;
-  margin-right: 210px;
+  margin-left: 0;
+  margin-right: 0;
   margin-top: 0;
 
   background-attachment: initial;
@@ -165,6 +165,7 @@ div#site-name /* The name of the website */ {
   background-origin: initial;
   background-position: 100% 0;
   background-repeat: no-repeat no-repeat;
+  margin-left: 210px;
   left: 10px;
   position: relative;
 }
@@ -185,6 +186,7 @@ div#site-name /* The name of the website */ {
   padding-right: 25px;
   padding-top: 60px;
   position: relative;
+  max-width: 540px;
 }
 
 #mission /* The mission statement of the site (displayed on homepage) */ {
@@ -335,21 +337,20 @@ ul.links li {
  * (see the layout.css file.)
  */
 .region-sidebar-second {
-  position:relative;
-	top:-10px;
-	right:-10px;
 	float:right;
-	width:220px;  /* for IE5/WIN */
-	voice-family: "\"}\"";
-	voice-family:inherit;
-	width:200px; /* actual value */
-	/*margin:0 0 -10px 0;
-	padding:10px;*/
-	background:#D7C4FA;
-	z-index:99;
+  margin-bottom: 5em;
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 60px;
+  position:relative;
+  width: 210px;
+  z-index: 2;
+  right: 10px;
 }
 
 .region-sidebar-second .section {
+  margin: 0px 0px 1.5em;
+  padding: 0px 15px 0px 0px
 }
 
 /*
