@@ -208,10 +208,6 @@ h3.title /* Comment title */ {
   margin: 0;
 }
 
-h2.title {
-  display: none;
-}
-
 tr.even /* Some tables have rows marked even or odd. */ {
   /* background-color: #eee; */ /* Drupal core uses a #eee background */
 }
@@ -318,6 +314,18 @@ ul.links li {
   margin: 0px 0px 1.5em;
   padding: 0px 15px 0px 0px
   }
+
+
+/* Don't display 'Primary links' text */
+#block-menu-primary-links h2.title {
+  display: none;
+}
+
+/* Don't display 'Secondary links' text */
+#block-menu-secondary-links h2.title {
+  display: none;
+}
+
 
 /*
  * Second sidebar (on right in LTR languages, on left in RTL)
