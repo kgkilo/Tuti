@@ -1,9 +1,13 @@
 
-- Set up graphical menu
+v0.3 Set up graphical menu
     The menu images are swapped over from the description fields,
       overriding the menu_item_link function in template.php, see:
     http://kevinhankens.com/content/dropdown-drupal-menus-accessibility-friendly-image-links
     http://chrisshattuck.com/blog/how-use-images-menu-items-drupal-simple-preprocessing-function
+    The menu images are cut from the original graphics design, each text
+      selected a rectangle 1 pixel bigger each direction,
+      then saved as transparent background PNG,
+      only 'Save res' ticked in settings, Compression level set to 5.
 
 v0.2 Set up header
     The logo is set up by using Drupal settings for logo.
