@@ -300,11 +300,11 @@ ul.links li {
  * (see the layout.css file.)
  */
 .region-sidebar-first {
-	float:left;
-  margin-bottom: 5em;
+	#float:left;
+  #margin-bottom: 5em;
   margin-left: -210px;
   margin-right: 0;
-  margin-top: 60px;
+  #margin-top: 60px;
   position:relative;
   width: 210px;
   z-index: 2;
@@ -324,6 +324,11 @@ ul.links li {
 /* Don't display 'Secondary links' text */
 #block-menu-secondary-links h2.title {
   display: none;
+}
+
+#block-menu-primary-links ul {
+  list-style: none outside none;
+  float:left;
 }
 
 
@@ -425,3 +430,4 @@ ul.links li {
   clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
   clip: rect(1px, 1px, 1px, 1px);
 }
+
