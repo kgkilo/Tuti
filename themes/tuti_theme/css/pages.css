@@ -339,20 +339,50 @@ ul.links li {
  * (see the layout.css file.)
  */
 .region-sidebar-second {
-	float:right;
-  margin-bottom: 5em;
+	#float:right;
+  #margin-bottom: 5em;
   margin-left: 0;
   margin-right: 0;
-  margin-top: 60px;
+  #margin-top: 60px;
   position:relative;
   width: 210px;
   z-index: 2;
-  right: 10px;
+  #right: 10px;
 }
 
 .region-sidebar-second .section {
   margin: 0px 0px 1.5em;
   padding: 0px 15px 0px 0px
+}
+
+#block-user-0 {
+  margin-top: 15px;
+}
+
+/* Hide title "Belepes" */
+#block-user-0 h2.title {
+  display: none;
+}
+
+/* Show User name / Password in green */
+#block-user-0 .form-item label {
+  color: #7FC91B;
+}
+
+/* Show button "Belepes" using an image, in white on hover */
+#block-user-0 input.form-submit {
+  width: 77px;
+  height: 32px;
+
+  color: transparent;
+  background-image: url(http://kilo.neobase.hu/sites/kilo.neobase.hu/themes/tuti_theme/images/belepes-green.png);
+  background-color: transparent;
+  background-repeat: no-repeat;
+  background-position: top left;
+  border: none;
+}
+#block-user-0 input.form-submit:hover {
+  background-image: url(http://kilo.neobase.hu/sites/kilo.neobase.hu/themes/tuti_theme/images/belepes-white.png);
 }
 
 /*
