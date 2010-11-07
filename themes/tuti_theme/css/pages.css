@@ -67,6 +67,8 @@ body #page-wrapper #page {
 #header {
   margin-left: -8px;  /* Header reaches out to the edge on both sides.*/
   margin-right: -8px;
+  /* Header background is 1-px wide transition between green and white
+   * Repeated all the width of the header */
   height: 119px;
   background-color: #FFFFFF;
   background-image: url(http://kilo.neobase.hu/sites/kilo.neobase.hu/themes/tuti_theme/images/header-bg.png);
@@ -75,22 +77,27 @@ body #page-wrapper #page {
 }
 
 #header .section {
+  /* The header image also includes the patchy background */
   background-image: url(http://kilo.neobase.hu/sites/kilo.neobase.hu/themes/tuti_theme/images/header-mix.png);
   background-repeat: repeat no-repeat;
 }
 
-#logo /* Wrapping link for logo */ {
+/* Wrapping link for logo */
+#logo {
 }
 
+/* The real logo image, set up with Drupal's website information settings. */
 #logo img {
   padding: 15px 0px 0px 5px;
 }
 
-#name-and-slogan /* Wrapper for website name and slogan */ {
+/* Wrapper for website name and slogan */
+#name-and-slogan {
 }
 
+/* The name of the website */
 h1#site-name,
-div#site-name /* The name of the website */ {
+div#site-name {
 }
 
 #site-name a:link,
@@ -104,10 +111,12 @@ div#site-name /* The name of the website */ {
   text-decoration: none;
 }
 
-#site-slogan /* The slogan (or tagline) of a website */ {
+/* The slogan (or tagline) of a website */
+#site-slogan {
 }
 
-.region-header /* Wrapper for any blocks placed in the header region */ {
+/* Wrapper for any blocks placed in the header region */
+.region-header {
 }
 
 /*
@@ -326,7 +335,7 @@ ul.links li {
   display: none;
 }
 
-#block-menu-primary-links ul {
+#block-menu-primary-links ul li {
   list-style: none outside none;
   float:left;
 }
@@ -339,20 +348,50 @@ ul.links li {
  * (see the layout.css file.)
  */
 .region-sidebar-second {
-	float:right;
-  margin-bottom: 5em;
+	#float:right;
+  #margin-bottom: 5em;
   margin-left: 0;
   margin-right: 0;
-  margin-top: 60px;
+  #margin-top: 60px;
   position:relative;
   width: 210px;
   z-index: 2;
-  right: 10px;
+  #right: 10px;
 }
 
 .region-sidebar-second .section {
   margin: 0px 0px 1.5em;
   padding: 0px 15px 0px 0px
+}
+
+#block-user-0 {
+  margin-top: 15px;
+}
+
+/* Hide title "Belepes" */
+#block-user-0 h2.title {
+  display: none;
+}
+
+/* Show User name / Password in green */
+#block-user-0 .form-item label {
+  color: #7FC91B;
+}
+
+/* Show button "Belepes" using an image, in white on hover */
+#block-user-0 input.form-submit {
+  width: 77px;
+  height: 32px;
+
+  color: transparent;
+  background-image: url(http://kilo.neobase.hu/sites/kilo.neobase.hu/themes/tuti_theme/images/belepes-green.png);
+  background-color: transparent;
+  background-repeat: no-repeat;
+  background-position: top left;
+  border: none;
+}
+#block-user-0 input.form-submit:hover {
+  background-image: url(http://kilo.neobase.hu/sites/kilo.neobase.hu/themes/tuti_theme/images/belepes-white.png);
 }
 
 /*
