@@ -394,6 +394,10 @@ ul.links li {
   background-image: url(http://kilo.neobase.hu/sites/kilo.neobase.hu/themes/tuti_theme/images/belepes-white.png);
 }
 
+/* Show "Create user / Lost password" in green */
+div.item-list a {
+  color: #7FC91B;
+}
 /*
  * Footer
  */
