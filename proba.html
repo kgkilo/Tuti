@@ -30,10 +30,9 @@
 <!--[if lte IE 6]>
 <link type="text/css" rel="stylesheet" media="all" href="/sites/kilo.neobase.hu/themes/tuti_theme/css/ie6.css?X" />
 <![endif]-->
-  </head>
+</head>
+
 <body class="">
-
-
   <div id="page-wrapper">
     <div id="page">
       <div id="header">
@@ -106,7 +105,6 @@
             <div class="section">
               <div id="block-menu-primary-links" class="">
                 <h2 class="title">Elsődleges linkek</h2>
-
                 <div class="content">
                   <ul class="menu">
                     <li class="leaf first"><a href="/" title="Hírek"><img alt="" title="" src="http://kilo.neobase.hu/sites/kilo.neobase.hu/themes/tuti_theme/images/menu-hirek-green.png" /></a></li>
@@ -127,80 +125,121 @@
                 </div>
               </div> <!-- /.block -->
 
-<div id="block-menu-secondary-links" class="">
-      <h2 class="title">Másodlagos linkek</h2>
+              <div id="block-menu-secondary-links" class="">
+                <h2 class="title">Másodlagos linkek</h2>
+                <div class="content">
+                  <ul class="menu">
+                    <li class="expanded first last"><a href="/content/t%C3%A1mogat%C3%B3k" title="Támogatók">Támogatók</a>
+                      <ul class="menu">
+                        <li class="leaf first last"><a href="/content/n%C3%B3gi-aut%C3%B3mos%C3%B3" title="Nógi autómosó">Nógi autómosó</a></li>
+                      </ul>
+                    </li>
+                  </ul>
+                </div>
+              </div> <!-- /.block -->
 
-  <div class="content">
-    <ul class="menu"><li class="expanded first last"><a href="/content/t%C3%A1mogat%C3%B3k" title="Támogatók">Támogatók</a><ul class="menu"><li class="leaf first last"><a href="/content/n%C3%B3gi-aut%C3%B3mos%C3%B3" title="Nógi autómosó">Nógi autómosó</a></li>
-</ul></li>
-</ul>  </div>
+              <div id="block-forum-0" class="">
+                <h2 class="title">Aktív fórumtémák</h2>
+                <div class="content">
+                  <div class="item-list">
+                    <ul>
+                      <li class="first last"><a href="/content/els%C5%91-pr%C3%B3ba-f%C3%B3rumt%C3%A9ma">Első próba fórumtéma</a></li>
+                    </ul>
+                  </div>
+                  <div class="more-link">
+                    <a href="/forum" title="A legfrissebb fórumtémák olvasása.">tovább</a>
+                  </div>
+                </div>
+              </div> <!-- /.block -->
 
-  </div> <!-- /.block -->
-<div id="block-forum-0" class="">
-      <h2 class="title">Aktív fórumtémák</h2>
+              <div id="block-user-1" class="">
+                <h2 class="title">kilo</h2>
+                <div class="content">
+                  <ul class="menu">
+                    <li class="leaf first"><a href="/users/kilo">Saját adatok</a></li>
+                    <li class="collapsed"><a href="/node/add">Tartalom beküldése</a></li>
+                    <li class="collapsed"><a href="/admin">Adminisztráció</a></li>
+                    <li class="leaf last"><a href="/logout">Kilépés</a></li>
+                  </ul>
+                </div>
+              </div> <!-- /.block -->
+            </div>
+          </div> <!-- /.section, /.region -->
 
-  <div class="content">
-    <div class="item-list"><ul><li class="first last"><a href="/content/els%C5%91-pr%C3%B3ba-f%C3%B3rumt%C3%A9ma">Első próba fórumtéma</a></li>
-</ul></div><div class="more-link"><a href="/forum" title="A legfrissebb fórumtémák olvasása.">tovább</a></div>  </div>
+          <div class="region region-sidebar-second column sidebar">
+            <div class="section">
+              <div id="block-user-0" class="">
+                <h2 class="title">Belépés</h2>
+                <div class="content">
+                  <form action="/node?destination=node"  accept-charset="UTF-8" method="post" id="user-login-form">
+                    <div>
+                      <div class="form-item" id="edit-name-wrapper">
+                        <label for="edit-name">Felhasználói név: <span class="form-required" title="Szükséges mező.">*</span></label>
+                        <input type="text" maxlength="60" name="name" id="edit-name" size="15" value="" class="form-text required" />
+                      </div>
+                      <div class="form-item" id="edit-pass-wrapper">
+                        <label for="edit-pass">Jelszó: <span class="form-required" title="Szükséges mező.">*</span></label>
+                        <input type="password" name="pass" id="edit-pass"  maxlength="60"  size="15"  class="form-text required" />
+                      </div>
+                      <input type="submit" name="op" id="edit-submit" value="Belépés"  class="form-submit" />
+                      <div class="item-list">
+                        <ul>
+                          <li class="first"><a href="/user/register" title="Új felhasználó regisztrációja.">Felhasználó létrehozása</a></li>
+                          <li class="last"><a href="/user/password" title="Új jelszó igénylése emailben.">Elfelejtett jelszó</a></li>
+                        </ul>
+                      </div>
+                      <input type="hidden" name="form_build_id" id="form-17feac81e1d2a9bb396952771ba7d5b9" value="form-17feac81e1d2a9bb396952771ba7d5b9"  />
+                      <input type="hidden" name="form_id" id="edit-user-login-block" value="user_login_block"  />
+                    </div>
+                  </form>
+                </div>
+              </div> <!-- /.block -->
 
-  </div> <!-- /.block -->
-<div id="block-user-1" class="">
-      <h2 class="title">kilo</h2>
+              <div id="block-user-3" class="">
+                <h2 class="title">Online felhasználók</h2>
+                <div class="content">
+                  Jelenleg <em>1 felhasználó</em> és <em>0 vendég</em> van a webhelyen.
+                  <div class="item-list">
+                    <h3>Aktív felhasználók</h3>
+                    <ul>
+                      <li class="first last"><a href="/users/kilo" title="Felhasználói profil megtekintése.">kilo</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div> <!-- /.block -->
 
-  <div class="content">
-    <ul class="menu"><li class="leaf first"><a href="/users/kilo">Saját adatok</a></li>
-<li class="collapsed"><a href="/node/add">Tartalom beküldése</a></li>
-<li class="collapsed"><a href="/admin">Adminisztráció</a></li>
-<li class="leaf last"><a href="/logout">Kilépés</a></li>
-</ul>  </div>
+              <div id="block-image-1" class="">
+                <h2 class="title">Véletlenszerű kép</h2>
+                <div class="content">
+                  <a href="/content/befuto"><img src="http://kilo.neobase.hu/sites/kilo.neobase.hu/files/images/vlcsnap-13402.thumbnail.png" alt="Befutó" title="Befutó"  class="image image-thumbnail " width="100" height="58" /></a>
+                </div>
+              </div> <!-- /.block -->
+            </div>
+          </div> <!-- /.section, /.region -->
 
-  </div> <!-- /.block -->
-</div></div> <!-- /.section, /.region -->
+        </div>
+      </div> <!-- /#main, /#main-wrapper -->
 
-      <div class="region region-sidebar-second column sidebar"><div class="section">
-  <div id="block-user-3" class="">
-      <h2 class="title">Online felhasználók</h2>
+      <div id="footer">
+        <div class="section">
+          <div class="region region-footer">
+            <div id="block-system-0" class="">
+              <div class="content">
+                <a href="http://drupal.org"><img src="/misc/powered-gray-80x15.png" alt="A webhelyet a Drupal - egy nyílt tartalomkezelő rendszer - működteti" title="A webhelyet a Drupal - egy nyílt tartalomkezelő rendszer - működteti" width="80" height="15" /></a>
+              </div>
+            </div> <!-- /.block -->
 
-  <div class="content">
-    Jelenleg <em>1 felhasználó</em> és <em>0 vendég</em> van a webhelyen.<div class="item-list"><h3>Aktív felhasználók</h3><ul><li class="first last"><a href="/users/kilo" title="Felhasználói profil megtekintése.">kilo</a></li>
-</ul></div>  </div>
+            <div id="block-neobase-0" class="">
+              <div class="content">
+                <a href="http://www.neobase.hu" title="NeoBase.hu - ingyen Drupal tárhely" style="border: 0"><img src="http://www.neobase.hu/static/images/neobase-minilogo.png" /></a>
+              </div>
+            </div> <!-- /.block -->
+          </div> <!-- /.region -->
+        </div>
+      </div> <!-- /.section, /#footer -->
 
-  </div> <!-- /.block -->
-<div id="block-image-1" class="">
-      <h2 class="title">Véletlenszerű kép</h2>
-
-  <div class="content">
-    <a href="/content/befuto"><img src="http://kilo.neobase.hu/sites/kilo.neobase.hu/files/images/vlcsnap-13402.thumbnail.png" alt="Befutó" title="Befutó"  class="image image-thumbnail " width="100" height="58" /></a>  </div>
-
-  </div> <!-- /.block -->
-</div></div> <!-- /.section, /.region -->
-
-    </div></div> <!-- /#main, /#main-wrapper -->
-
-          <div id="footer"><div class="section">
-
-
-
-        <div class="region region-footer">
-  <div id="block-system-0" class="">
-
-  <div class="content">
-    <a href="http://drupal.org"><img src="/misc/powered-gray-80x15.png" alt="A webhelyet a Drupal - egy nyílt tartalomkezelő rendszer - működteti" title="A webhelyet a Drupal - egy nyílt tartalomkezelő rendszer - működteti" width="80" height="15" /></a>  </div>
-
-  </div> <!-- /.block -->
-<div id="block-neobase-0" class="">
-
-  <div class="content">
-    <a href="http://www.neobase.hu" title="NeoBase.hu - ingyen Drupal tárhely" style="border: 0"><img src="http://www.neobase.hu/static/images/neobase-minilogo.png" /></a>  </div>
-
-  </div> <!-- /.block -->
-</div> <!-- /.region -->
-
-      </div></div> <!-- /.section, /#footer -->
-
-  </div></div> <!-- /#page, /#page-wrapper -->
-
-
+    </div>
+  </div> <!-- /#page, /#page-wrapper -->
 
 <script type="text/javascript">var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));</script><script type="text/javascript">try {var pageTracker = _gat._getTracker("UA-7932747-1");pageTracker._trackPageview();} catch(err) {}</script><script type="text/javascript" src="http://lilo.swi.hu/ad/adjs?z=206"></script>
 </body>
