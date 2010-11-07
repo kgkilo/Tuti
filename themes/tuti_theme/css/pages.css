@@ -67,6 +67,8 @@ body #page-wrapper #page {
 #header {
   margin-left: -8px;  /* Header reaches out to the edge on both sides.*/
   margin-right: -8px;
+  /* Header background is 1-px wide transition between green and white
+   * Repeated all the width of the header */
   height: 119px;
   background-color: #FFFFFF;
   background-image: url(http://kilo.neobase.hu/sites/kilo.neobase.hu/themes/tuti_theme/images/header-bg.png);
@@ -75,22 +77,27 @@ body #page-wrapper #page {
 }
 
 #header .section {
+  /* The header image also includes the patchy background */
   background-image: url(http://kilo.neobase.hu/sites/kilo.neobase.hu/themes/tuti_theme/images/header-mix.png);
   background-repeat: repeat no-repeat;
 }
 
-#logo /* Wrapping link for logo */ {
+/* Wrapping link for logo */
+#logo {
 }
 
+/* The real logo image, set up with Drupal's website information settings. */
 #logo img {
   padding: 15px 0px 0px 5px;
 }
 
-#name-and-slogan /* Wrapper for website name and slogan */ {
+/* Wrapper for website name and slogan */
+#name-and-slogan {
 }
 
+/* The name of the website */
 h1#site-name,
-div#site-name /* The name of the website */ {
+div#site-name {
 }
 
 #site-name a:link,
@@ -104,10 +111,12 @@ div#site-name /* The name of the website */ {
   text-decoration: none;
 }
 
-#site-slogan /* The slogan (or tagline) of a website */ {
+/* The slogan (or tagline) of a website */
+#site-slogan {
 }
 
-.region-header /* Wrapper for any blocks placed in the header region */ {
+/* Wrapper for any blocks placed in the header region */
+.region-header {
 }
 
 /*
