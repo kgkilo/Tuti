@@ -496,3 +496,11 @@ div.item-list a {
   display: block;
   margin: 0.5em 0px;
 }
+
+/* Contact info in the footer */
+#block-block-1 {
+  display: block;
+  margin: 0.5em 0px;
+  text-align: center;
+}
+
