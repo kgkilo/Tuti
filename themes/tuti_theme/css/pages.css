@@ -222,6 +222,7 @@ h3.title /* Comment title */ {
  */
 a {
   color: #0C7A00;
+  text-decoration: none;
 }
 
 tr.even /* Some tables have rows marked even or odd. */ {
