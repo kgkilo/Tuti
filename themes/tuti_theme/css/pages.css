@@ -70,10 +70,10 @@ body #page-wrapper #page {
   /* Header background is 1-px wide transition between green and white
    * Repeated all the width of the header */
   height: 119px;
-  background-color: #FFFFFF;
-  background-image: url(http://kilo.neobase.hu/sites/kilo.neobase.hu/themes/tuti_theme/images/header-bg.png);
-  background-repeat: repeat no-repeat;
-  background-attachment: fixed;
+  #background-color: #FFFFFF;
+  #background-image: url(http://kilo.neobase.hu/sites/kilo.neobase.hu/themes/tuti_theme/images/header-bg.png);
+  #background-repeat: repeat no-repeat;
+  #background-attachment: fixed;
 }
 
 #header .section {
