@@ -217,6 +217,13 @@ h3.title /* Comment title */ {
   margin: 0;
 }
 
+/* Show main content area links in green
+ * (Story titles, created by info, add new comment, etc )
+ */
+a {
+  color: #0C7A00;
+}
+
 tr.even /* Some tables have rows marked even or odd. */ {
   /* background-color: #eee; */ /* Drupal core uses a #eee background */
 }
@@ -375,7 +382,7 @@ ul.links li {
 
 /* Show User name / Password in green */
 #block-user-0 .form-item label {
-  color: #7FC91B;
+  color: #0C7A00;
 }
 
 /* Show button "Belepes" using an image, in white on hover */
@@ -396,8 +403,17 @@ ul.links li {
 
 /* Show "Create user / Lost password" in green */
 div.item-list a {
-  color: #7FC91B;
+  color: #0C7A00;
 }
+
+/* Show User details in green */
+#block-user-1 li,
+#block-user-1 a,
+#block-user-1 h2.title {
+  color: #0C7A00;
+}
+
+
 /*
  * Footer
  */
