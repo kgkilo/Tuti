@@ -418,6 +418,7 @@ div.item-list a {
  * Footer
  */
 #footer {
+  text-align: center;
 }
 
 #footer .section {
@@ -488,5 +489,18 @@ div.item-list a {
   position: absolute !important;
   clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
   clip: rect(1px, 1px, 1px, 1px);
+}
+
+
+#block-neobase-0 {
+  display: block;
+  margin: 0.5em 0px;
+}
+
+/* Contact info in the footer */
+#block-block-1 {
+  display: block;
+  margin: 0.5em 0px;
+  text-align: center;
 }
 
