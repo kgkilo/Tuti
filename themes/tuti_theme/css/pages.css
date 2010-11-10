@@ -434,6 +434,20 @@ div.item-list a {
 .region-footer {
 }
 
+/* NeoBase logo in the footer */
+#block-neobase-0 {
+  display: block;
+  margin: 0.5em 0px;
+}
+
+/* Contact info in the footer */
+#block-block-1 {
+  display: block;
+  margin: 0.5em 0px;
+  text-align: center;
+}
+
+
 /*
  * Closure
  */
@@ -494,16 +508,4 @@ div.item-list a {
   clip: rect(1px, 1px, 1px, 1px);
 }
 
-
-#block-neobase-0 {
-  display: block;
-  margin: 0.5em 0px;
-}
-
-/* Contact info in the footer */
-#block-block-1 {
-  display: block;
-  margin: 0.5em 0px;
-  text-align: center;
-}
 
