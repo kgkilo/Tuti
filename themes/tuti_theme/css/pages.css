@@ -393,7 +393,7 @@ ul.links li {
   width: 77px;
   height: 32px;
 
-  color: transparent;
+  text-indent: -2000px; /* move text away, don't show it */
   background-image: url(http://kilo.neobase.hu/sites/kilo.neobase.hu/themes/tuti_theme/images/belepes-green.png);
   background-color: transparent;
   background-repeat: no-repeat;
