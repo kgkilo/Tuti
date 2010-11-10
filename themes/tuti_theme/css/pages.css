@@ -140,7 +140,7 @@ div#site-name {
 
   background-attachment: initial;
   background-clip: initial;
-  background-color: #FFFFFF;
+  background-color: #FBFAF7;
   background-image: url();
   background-origin: initial;
   background-position: 50% 0;
@@ -184,7 +184,7 @@ div#site-name {
 }
 
 #mission /* The mission statement of the site (displayed on homepage) */ {
-  background-color: #FFFFFF;
+  background-color: #FBFAF7;
   border-bottom-color: #F9FBF5;
   border-bottom-style: solid;
   border-bottom-width: 1px;
