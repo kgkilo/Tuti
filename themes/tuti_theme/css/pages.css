@@ -98,6 +98,7 @@ body #page-wrapper #page {
 /* The name of the website */
 h1#site-name,
 div#site-name {
+  display: none;
 }
 
 #site-name a:link,
@@ -113,6 +114,7 @@ div#site-name {
 
 /* The slogan (or tagline) of a website */
 #site-slogan {
+  display: none;
 }
 
 /* Wrapper for any blocks placed in the header region */
