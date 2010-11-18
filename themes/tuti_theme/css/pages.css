@@ -71,14 +71,14 @@ body #page-wrapper #page {
    * Repeated all the width of the header */
   height: 119px;
   #background-color: #FFFFFF;
-  #background-image: url(http://kilo.neobase.hu/sites/kilo.neobase.hu/themes/tuti_theme/images/header-bg.png);
+  #background-image: url(http://tutikori.hu/sites/tutikori.hu/themes/tuti_theme/images/header-bg.png);
   #background-repeat: repeat no-repeat;
   #background-attachment: fixed;
 }
 
 #header .section {
   /* The header image also includes the patchy background */
-  background-image: url(http://kilo.neobase.hu/sites/kilo.neobase.hu/themes/tuti_theme/images/header-mix.png);
+  background-image: url(http://tutikori.hu/sites/tutikori.hu/themes/tuti_theme/images/header-mix.png);
   background-repeat: repeat no-repeat;
 }
 
@@ -98,6 +98,7 @@ body #page-wrapper #page {
 /* The name of the website */
 h1#site-name,
 div#site-name {
+  display: none;
 }
 
 #site-name a:link,
@@ -113,6 +114,7 @@ div#site-name {
 
 /* The slogan (or tagline) of a website */
 #site-slogan {
+  display: none;
 }
 
 /* Wrapper for any blocks placed in the header region */
@@ -185,23 +187,11 @@ div#site-name {
 
 #mission /* The mission statement of the site (displayed on homepage) */ {
   background-color: #FBFAF7;
-  border-bottom-color: #F9FBF5;
-  border-bottom-style: solid;
-  border-bottom-width: 1px;
-  border-left-color: #F9FBF5;
-  border-left-style: solid;
-  border-left-width: 1px;
-  border-right-color: #F9FBF5;
-  border-right-style: solid;
-  border-right-width: 1px;
-  border-top-color: #F9FBF5;
-  border-top-style: solid;
-  border-top-width: 1px;
+  border: 1px solid #F9FBF5;
   margin-bottom: 2em;
-  padding-bottom: 1em;
-  padding-left: 1em;
-  padding-right: 1em;
-  padding-top: 1em;
+  padding: 1em;
+  text-align: center;
+  font-weight: bold;
 }
 
 .region-content-top /* Wrapper for any blocks placed in the "content top" region */ {
@@ -225,6 +215,7 @@ a {
   text-decoration: none;
 }
 
+  
 tr.even /* Some tables have rows marked even or odd. */ {
   /* background-color: #eee; */ /* Drupal core uses a #eee background */
 }
@@ -272,6 +263,11 @@ div.tabs /* See also the tabs.css file. */ {
 #content-area /* Wrapper for the actual page content */ {
 }
 
+/* 1 line left empty before article titles */
+#content-area h2.title {
+  margin-top: 2em;
+  }
+  
 ul.links /* List of links */ {
   margin: 1em 0;
   padding: 0;
@@ -309,6 +305,11 @@ ul.links li {
 
 .region-content-bottom /* Wrapper for any blocks placed in the "content bottom" region */ {
 }
+
+#navigation {
+  display: none;
+}
+
 
 /*
  * First sidebar (on left in LTR languages, on right in RTL)
@@ -394,14 +395,14 @@ ul.links li {
   height: 32px;
 
   text-indent: -2000px; /* move text away, don't show it */
-  background-image: url(http://kilo.neobase.hu/sites/kilo.neobase.hu/themes/tuti_theme/images/belepes-green.png);
+  background-image: url(http://tutikori.hu/sites/tutikori.hu/themes/tuti_theme/images/belepes-green.png);
   background-color: transparent;
   background-repeat: no-repeat;
   background-position: top left;
   border: none;
 }
 #block-user-0 input.form-submit:hover {
-  background-image: url(http://kilo.neobase.hu/sites/kilo.neobase.hu/themes/tuti_theme/images/belepes-white.png);
+  background-image: url(http://tutikori.hu/sites/tutikori.hu/themes/tuti_theme/images/belepes-white.png);
 }
 
 /* Show "Create user / Lost password" in green */
@@ -416,6 +417,33 @@ div.item-list a {
   color: #0C7A00;
 }
 
+/* Center align user name when logged in */
+#block-user-1 h2.title {
+  align: center;
+}
+
+
+/* 
+ * Random image block on the right
+ *
+*/
+/* Add some space before the random image */
+#block-image-1 {
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+
+/* Don't display 'Veletlenszeru kepek' text */
+#block-image-1 h2.title {
+  display: none;
+}
+
+/* Center random image */
+#block-image-1 img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
 
 /*
  * Footer
@@ -509,3 +537,7 @@ div.item-list a {
 }
 
 
+
+  clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
+  clip: rect(1px, 1px, 1px, 1px);
+}

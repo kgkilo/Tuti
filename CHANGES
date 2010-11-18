@@ -1,4 +1,14 @@
-
+    
+    Installed Google Analytics module
+    Added 'Random image' block on the right
+    Customized 'Submitted by' to only show date/time
+    1 line left empty before article titles
+    Center align user name when logged in
+    Center-align drupal.org logo image
+    Hide 'Submitted by' from pages and articles.
+    Hide site name and slogan.
+    No underlines for links in content area.
+    'Mission' formatting.
     Footer set up.
     "Submitted by", "Uj hozzaszolas" and "Tovabb" links shown in green.
     "Felhasznalo letrehozasa" and "Elfelejtett jelszo" shown in green.
