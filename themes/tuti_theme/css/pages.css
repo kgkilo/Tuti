@@ -215,11 +215,6 @@ a {
   text-decoration: none;
 }
 
-/* Hide 'Submitted by' info from posts/pages */
-span.submitted {
-  display: none;
-}
-
   
 tr.even /* Some tables have rows marked even or odd. */ {
   /* background-color: #eee; */ /* Drupal core uses a #eee background */
