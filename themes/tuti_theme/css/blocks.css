@@ -90,3 +90,9 @@
 
 #block-user-3 /* "Who's online" block for a list of the online users */ {
 }
+
+
+/* "Drupal.org" block showing a linked drupal logo */
+#block-system-0 {
+  text-align: center;
+}
