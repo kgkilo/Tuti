@@ -187,23 +187,11 @@ div#site-name {
 
 #mission /* The mission statement of the site (displayed on homepage) */ {
   background-color: #FBFAF7;
-  border-bottom-color: #F9FBF5;
-  border-bottom-style: solid;
-  border-bottom-width: 1px;
-  border-left-color: #F9FBF5;
-  border-left-style: solid;
-  border-left-width: 1px;
-  border-right-color: #F9FBF5;
-  border-right-style: solid;
-  border-right-width: 1px;
-  border-top-color: #F9FBF5;
-  border-top-style: solid;
-  border-top-width: 1px;
+  border: 1px solid #F9FBF5;
   margin-bottom: 2em;
-  padding-bottom: 1em;
-  padding-left: 1em;
-  padding-right: 1em;
-  padding-top: 1em;
+  padding: 1em;
+  text-align: center;
+  font-weight: bold;
 }
 
 .region-content-top /* Wrapper for any blocks placed in the "content top" region */ {
