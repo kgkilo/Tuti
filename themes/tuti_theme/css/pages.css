@@ -310,6 +310,12 @@ ul.links li {
   display: none;
 }
 
+/* Move 'Uj hozzaszolas' link to the right */
+li.first.comment_comments,
+li.first.comment_add {
+  float: right;
+}
+
 
 /*
  * First sidebar (on left in LTR languages, on right in RTL)
