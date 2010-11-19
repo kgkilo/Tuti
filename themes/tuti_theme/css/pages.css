@@ -316,6 +316,11 @@ li.first.comment_add {
   float: right;
 }
 
+/* Hide 'Hozzaszolashoz regisztracio es belepes szukseges' link */
+li.first.comment_forbidden {
+  display: none;
+}
+
 /* Hide 'Csatolmanyok' link */
 li.last.upload_attachments {
   display: none;
