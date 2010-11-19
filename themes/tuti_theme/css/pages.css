@@ -316,6 +316,10 @@ li.first.comment_add {
   float: right;
 }
 
+/* Hide 'Csatolmanyok' link */
+li.last.upload_attachments {
+  display: none;
+}
 
 /*
  * First sidebar (on left in LTR languages, on right in RTL)
