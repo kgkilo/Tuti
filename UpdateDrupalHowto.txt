@@ -1,0 +1,52 @@
+Drupal frissitese
+
+http://www.neobase.hu/friss%C3%ADt%C3%A9s
+
+- Jelentkezz be adminisztrátorként - ez az a felhasználó, amit mi hoztunk létre neked, amikor az oldalad elkészítettük. Ha nem módosítottad a felhasználói neved, akkor ez megegyezik a NeoBase.hu felhasználói azonosítóddal. A frissítési folyamat során ne zárd be ezt a böngésző ablakot!
+- Állítsd az oldalad offline állapotba ebben az Adminisztráció › Webhely beállítása › Webhely karbantartás (angol nyelvű felületen: Administer › Site configuration › Site maintenance) menüpontban.
+- Ajánlott valami alap sminket kiválasztani, például a Garlandot.
+- Kapcsolj ki minden kikapcsolható modult. Listat lad alul, ilyen sorrendben lehet oket kikapcsolni, visszakapcsolas pedig forditva (fuggosegek miatt).
+- Készíts biztonsági mentést az adatbázisodról a Backup and migrate modul segítségével. (Eloszor bekapcsolni a Site building/Modules-ban, majd a Content Management alatt megtalalhato.)
+- Készíts biztonsági mentést a tárhelyedről, FTP-n keresztül. (gftp, ftp.neobase.hu, usr:kilo)
+- Itt jön az eltérés a hivatalos útmutatóhoz képest: Egy másik böngészőablakban, a NeoBase adminisztrációs rendszerében frissítsd a Drupal motort a Frissítés menüpont alatt, majd az oldaladra visszatérve a Reports › Status report menüpontban ellenőrizd le, hogy megtörtént-e a verzióváltás (a táblázat legfelső sorában található meg az aktuális verziószám). A verzióváltás nem azonnal, hanem kb. 10 percen belül történik meg.
+- Ha megtörtént a verzióváltás, a böngésződben futtasd le a /update.php oldalt.
+- Kapcsold vissza a modulokat, sminkeket.
+- Ajánlott ellenőrizni, hogy az általad feltelepített modulokból elérhető-e frissebb változat, és ha igen, telepíteni azokat (FTP-n felmásolni a helyükre). (letolteni, kizippelni, FTP-zni)
+- Újra futtasd le a /update.php oldalt.
+- Ellenőrizd, hogy oldalad minden része működik-e.
+- Állítsd vissza az oldalad online állapotba.
+- Ha - miután offline állapotba állítottad az oldalad - véletlenül kiléptél, akkor a /?q=user URL-en tudsz újra belépni.
+
+
+Modulok:
+Blog
+Color
+Help
+Locale
+Menu
+Ping
+Statistics
+Update status
+Upload
+Advanced Forum
+Avatar Selection
+Neobase.hu
+PathAuto
+Read More link
+Token Actions
+Webform
+Image Attach
+Image Gallery
+Google Analytics
+IMCE wysiwyg API bridge
+
+Forum
+Path
+Image
+Author Pane
+IMCE
+Token
+Wysiwyg
+
+Comment
+Taxonomy
