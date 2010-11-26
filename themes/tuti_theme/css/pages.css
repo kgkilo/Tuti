@@ -310,6 +310,26 @@ ul.links li {
   display: none;
 }
 
+/* Move 'Uj hozzaszolas' link to the right */
+li.first.comment_comments,
+li.first.comment_add {
+  float: right;
+}
+
+/* Hide 'Hozzaszolashoz regisztracio es belepes szukseges' link */
+li.first.comment_forbidden {
+  display: none;
+}
+
+/* Hide 'Csatolmanyok' link */
+li.last.upload_attachments {
+  display: none;
+}
+
+/* Display attached images next to eachother, not 1 per line */
+.image-attach-body {
+  display: inline;
+}
 
 /*
  * First sidebar (on left in LTR languages, on right in RTL)
