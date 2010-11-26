@@ -6,6 +6,7 @@
     Moved 'read more' link right after the excerpt,
       using the Read More module.
       Note: may fail if using another language but Hungarian!
+      http://community.contractwebdevelopment.com/drupal-place-read-more-link-add-new-comment
     Installed Google Analytics module
     Added 'Random image' block on the right
     Customized 'Submitted by' to only show date/time
