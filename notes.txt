@@ -81,3 +81,56 @@ Jobb oldalon lehetnének ilyen kis boxok:
 - Legutóbb módosult oldal
 - Támogatók
 
+
+
+===============================================
+
+Átalakítás 2012/09
+
+Régi menüszerkezet:
+
+Hirek			-> /
+Bemutatkozas	-> /node/02
+Versenyzok		-> /node/03
+	Eredmenyek	-> /node/031
+	Versenynaptar	-> /node/032
+Oktatas			-> /node/04
+	Kezdoknek	-> /node/041
+	Haladoknak	-> /node/042
+
+
+---------------------------------
+Új menü:
+
+Hirek			-> /
+Bemutatkozas	-> /node/02
+Jegkori
+	Kezdo
+	Halado
+	Iskolak, ovodak
+Gorkori
+	Kezdo
+	Halado
+	Iskolak, ovodak
+Gyorskori
+	Versenyzoink
+	Versenynaptar
+	Edzesidpontok
+	Galeria
+Nyari tabor
+Forum
+Kapcsolat
+
+
+-----------------
+Menü beállítások:
+
+pl: bemutatkozas
+Útvonal: node/20
+Menü link címfelirata: sites/tutikori.hu/themes/tuti_theme/images/menu-bemutatkozas-green.png
+Leírás: Bemutatkozás
+Engedélyezett: +
+Nyitott: -
+Szülő menüpont: Elsődleges linkek
+Súly: 1
+
