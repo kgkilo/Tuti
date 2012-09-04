@@ -116,7 +116,7 @@ Gyorskori	        -> /node/03
 	Versenyzoink	-> /node/031
 	Versenynaptar	-> /node/032
 	Edzesidpontok	-> /node/033
-Galeria 	        -> /node/06
+Galeria 	        -> /node/034
 Nyari tabor     	-> /node/07
 Forum           	-> /node/08
 Kapcsolat       	-> /node/09
