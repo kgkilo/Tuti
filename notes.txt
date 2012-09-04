@@ -103,30 +103,30 @@ Oktatas			-> /node/04
 Új menü:
 
 Hirek			-> /
-Bemutatkozas	-> /node/02
-Jegkori
-	Kezdo
-	Halado
-	Iskolak, ovodak
-Gorkori
-	Kezdo
-	Halado
-	Iskolak, ovodak
-Gyorskori
-	Versenyzoink
-	Versenynaptar
-	Edzesidpontok
-	Galeria
-Nyari tabor
-Forum
-Kapcsolat
+Bemutatkozas	        -> /node/02
+Jegkori 	        -> /node/04
+	Kezdo   	-> /node/041
+	Halado         	-> /node/042
+	Iskolak, ovodak	-> /node/043
+Gorkori	                -> /node/05
+	Kezdo  	        -> /node/051
+	Halado  	-> /node/052
+	Iskolak, ovodak	-> /node/053
+Gyorskori	        -> /node/03
+	Versenyzoink	-> /node/031
+	Versenynaptar	-> /node/032
+	Edzesidpontok	-> /node/033
+Galeria 	        -> /node/06
+Nyari tabor     	-> /node/07
+Forum           	-> /node/08
+Kapcsolat       	-> /node/09
 
 
 -----------------
 Menü beállítások:
 
 pl: bemutatkozas
-Útvonal: node/20
+Útvonal: http://tutikori.hu/node/05
 Menü link címfelirata: sites/tutikori.hu/themes/tuti_theme/images/menu-bemutatkozas-green.png
 Leírás: Bemutatkozás
 Engedélyezett: +
